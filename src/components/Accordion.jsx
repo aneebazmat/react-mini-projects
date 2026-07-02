@@ -1,5 +1,7 @@
 import { useState } from 'react';
 
+// Accordion App
+
 function Accordion({ data = [] }) {
   const [openIds, setOpenIds] = useState([]);
   const [allowMultiple, setAllowMultiple] = useState(false);
